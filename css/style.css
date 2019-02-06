@@ -80,28 +80,29 @@ h6 {
 
 
 
-.header .header-lim .header-txt{
-/*    text-align: center;*/
-    height:auto;
+.header .header-lim .header-txt {
+    /*    text-align: center;*/
+    height: auto;
 
-    
-    
+
+
 }
+
 .my-footer {
     width: 100%;
-    height:auto;
+    height: auto;
     position: absolute;
-    
+
     right: 0;
     bottom: 100;
     left: 0;
-    
+
     margin-top: 4rem;
     overflow: hidden;
     background-color: #AB0603;
     text-align: left;
     color: white
-    }
+}
 
 
 
@@ -119,11 +120,11 @@ h6 {
 }
 
 .collapsible:after {
-  content: '\002B';
-  color: white;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
 }
 
 .content {
@@ -136,9 +137,9 @@ h6 {
 }
 
 
-.nav-link{
+.nav-link {
     color: black;
-    
+
 }
 
 
@@ -170,6 +171,33 @@ h6 {
 .link:hover {
     color: ;
     padding: 10px 10px;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    /* position: fixed;*/
+    /* z-index: 1;*/
+    top: 0;
+    left: 100;
+    background-color: #808080;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.sidenav a {
+    padding:
+        text-decoration: none;
+    font-size: 25px;
+    overflow: hidden;
+    color: #111;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #AB0600;
 }
 
 
@@ -231,6 +259,11 @@ h6 {
     border-radius: 12px;
 }
 
-.p{
-    color:black;
+.p {
+    color: black;
+    font-family: "EB Garamond", "Garamond", "Times New Roman", serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #171717;
+    text-rendering: optimizeLegibility;
 }

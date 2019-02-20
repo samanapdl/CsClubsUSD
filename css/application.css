@@ -6190,10 +6190,15 @@ table tfoot tr td {
 
 table tr th,
 table tr td {
-    padding: 0.875rem;
+    
+    padding-left: 1.5rem;
+    padding-right: 0.9rem;
+    padding-bottom: 1rem;
     font-size: 0.9375rem;
     color: #222;
     text-align: left;
+    border: solid 0 #ddd;
+    
 }
 
 table tr.even,

@@ -13937,6 +13937,7 @@ table p {
     font-family: inherit;
     margin: inherit;
     font-size: 20px;
+    text-align: justify;
 }
 
 .fa-youtube-square.circle-icon:before {
